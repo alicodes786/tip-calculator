@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+ <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Mono&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+
+  <link rel="stylesheet" href="script.css">
+ 
+  <title>Frontend Mentor | Tip calculator app</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+ 
+</head>
+<body>
+ <main>
+  <header class="head">
+    <div class="head-1">S P L I</div>
+    <div class="head-1">T T E R</div>
+  </header>
+   <div class="app__container">
+     
+       <div class="bill-Calculation">
+         <div class="bill-value">
+             <div class="header">Bill</div>
+             <div class="input-bill">
+                <span class = "sign">$</span>
+                <input class = "input inputBill" type="number" placeholder="0">
+              </div>
+         </div>
+
+         <div class="tip-selection">
+            <div class="header">Select Tip %</div>
+              <div class = "tip-percents">
+                 <!-- <div class="row-1"> -->
+                   <input id = "radio5" type = "radio" class = "tip-percent" data-id = 10>
+                   <label for="radio5">5%</label>
+                   <input id = "radio5" type = "radio" class = "tip-percent" data-id = 10>
+                   <label for="radio5">5%</label>
+                 
+                   <input id = "radio5" type = "radio" class = "tip-percent" data-id = 10>
+                   <label for="radio5">5%</label>
+                   <input id = "radio5" type = "radio" class = "tip-percent" data-id = 10>
+                   <label for="radio5">5%</label>
+                   <input id = "radio5" type = "radio" class = "tip-percent" data-id = 10>
+                   <label for="radio5">5%</label>
+                <!-- </div> -->
+              </div> 
+         </div> 
+
+         <div class="numberOfPeople">
+            <div class="header">Number of People</div>
+            <div class="input-people">
+              <span class = "user-sign"><i class="fas fa-user"></i></span>
+              <input class = "input inputPeople" type="number" placeholder = "0">
+            </div>
+         </div>
+         </div>
+
+         <div class="total-bill">
+         <div class = "amount-grid">
+           <div class="display-amount">
+              <div class="header amount">
+                Tip Amount
+                <div class="person">/ person</div>
+              </div>
+              <div class="tip-amount showing-amount">$0.00</div>
+           </div>
+           <div class="compute-total">
+             <div class="header amount">
+               Total
+               <div class="person">/ person</div>
+             </div>
+             <div class="total-amount showing-amount">$0.00</div>
+           </div>
+        </div>
+          <button class="buttonReset">
+              RESET
+          </button>
+       </div>
+   </div>
+ </main>
+<script src = "script.js"></script>
+</body>
+</html>
