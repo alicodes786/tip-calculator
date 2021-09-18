@@ -13,7 +13,7 @@ const amountOfBill = function(number){
   return number;
 }
 billInput.addEventListener('keypress', amountOfBill);
-
+console.log("Have to make changes here");
 
 
 //How this should work:
